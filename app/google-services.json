@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850975438817",
+    "project_id": "handsup-6b361",
+    "storage_bucket": "handsup-6b361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850975438817:android:b48c48833c356689d884a0",
+        "android_client_info": {
+          "package_name": "com.example.handsup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvItWZnAjdBEoHpFpNMEoAfd9mUHeRTq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

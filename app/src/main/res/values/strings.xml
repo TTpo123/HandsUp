@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HandsUp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="strCrearCuenta"><u>¿No tienes una cuenta? Cree una</u></string>
+    <string name="strOlvidar"><u>Olvidé contraseña</u></string>
+</resources>
