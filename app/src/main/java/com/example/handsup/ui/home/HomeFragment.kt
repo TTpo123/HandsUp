@@ -63,7 +63,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun enviarNot() {
-        val mensaje = "Sigue aprendiendo LSM"
+        val mensaje = "Continua Aprendiendo"
         if (ContextCompat.checkSelfPermission(requireContext(), android.Manifest.permission.POST_NOTIFICATIONS)
             != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(requireActivity(), arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 1)
@@ -77,8 +77,8 @@ class HomeFragment : Fragment() {
             )
 
             val builder = NotificationCompat.Builder(requireContext(), channelId)
-                .setSmallIcon(R.drawable.ic_hand)
-                .setContentTitle("Tus Tareas")
+                .setSmallIcon(R.drawable.ic_notifications_black_24dp)
+                .setContentTitle("Recordatorio")
                 .setContentText(mensaje)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setContentIntent(pendingIntent)
